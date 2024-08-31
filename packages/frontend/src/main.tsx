@@ -7,6 +7,8 @@ import "./index.css";
 import { BrowserRouter as Router } from "react-router-dom";
 import config from "./config.ts";
 
+console.log("config ->", config);
+
 Amplify.configure({
   Auth: {
     mandatorySignIn: true,
